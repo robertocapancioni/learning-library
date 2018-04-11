@@ -2,7 +2,7 @@
 ## Oracle Application Express: Sviluppo di Applicazioni Web Database
 ## Guida Hands-On-Labs
 
-Questa serie di laboratori pratici fanno parte del materiale del corso ** Oracle Application Express: Sviluppo di Applicazioni Web Database **. I laboratori sono progettati per insegnarti come creare applicazioni utilizzando Oracle Application Express. Come modalità di insegnamento si tratterà un singolo caso che verrà sviluppato in ogni laboratorio.
+Questa serie di laboratori pratici fanno parte del materiale del corso**Oracle Application Express: Sviluppo di Applicazioni Web Database**. I laboratori sono progettati per insegnarti come creare applicazioni utilizzando Oracle Application Express. Come modalità di insegnamento si tratterà un singolo caso che verrà sviluppato in ogni laboratorio.
 
 ## Prerequisiti
 
@@ -20,10 +20,10 @@ Per eseguire questi hands-on-lab, è necessario:
 
     - [Oracle VM Virtual Box] (http://www.oracle.com/technetwork/database/enterprise-edition/databaseappdev-vm-161299.html) - Scarica Oracle VM Virtual Box e quindi importa [Appliance di sviluppo applicazioni database] (http://www.oracle.com/technetwork/database/enterprise-edition/databaseappdev-vm-161299.html) che include Oracle Database 12c, Application Express e un numero di laboratori preinstallati.
 
-- Scarica i file sorgente del laboratorio da [Pagina GitHub] (https://github.com/ckoratam/OracleAPEX-Curriculum). In alternativa, scarica il file ** apex-curriculum-3681867.zip ** da [https://apex.oracle.com/education](http://www.oracle.com/technetwork/developer-tools/apex/learnmore /apex-education-2517914.html) ed estrai la cartella ** apex-curriculum-labs ** nella tua directory di lavoro. Il file apex-curriculum-3681867.zip include anche la cartella apex-curriculum-ppts. Questa cartella contiene le slides di tutte le lezioni del corso. Le slides delle lezioni non sono ospitate su questa pagina GitHub.
+- Scarica i file sorgente del laboratorio da [Pagina GitHub] (https://github.com/ckoratam/OracleAPEX-Curriculum). In alternativa, scarica il file**apex-curriculum-3681867.zip**da [https://apex.oracle.com/education](http://www.oracle.com/technetwork/developer-tools/apex/learnmore /apex-education-2517914.html) ed estrai la cartella**apex-curriculum-labs**nella tua directory di lavoro. Il file apex-curriculum-3681867.zip include anche la cartella apex-curriculum-ppts. Questa cartella contiene le slides di tutte le lezioni del corso. Le slides delle lezioni non sono ospitate su questa pagina GitHub.
 
 ## IMPORTANTE:
-- La documentazione Lab è ** meglio visualizzata ** utilizzando l'URL [URL sito web GitHub Pages di HOL] (https://oracle.github.io/learning-library/workshops/apex-en/). Una volta che visualizzi il sito Web di GitHub Pages di HOL, puoi visualizzare un elenco di Guide di laboratorio in qualsiasi momento facendo clic sull'icona ** Menu **
+- La documentazione Lab è **meglio visualizzata** utilizzando l'URL [URL sito web GitHub Pages di HOL] (https://oracle.github.io/learning-library/workshops/apex-en/). Una volta che visualizzi il sito Web di GitHub Pages di HOL, puoi visualizzare un elenco di Guide di laboratorio in qualsiasi momento facendo clic sull'icona **Menu**
 
     ! [] (immagini / WorkshopMenu.png)
 
@@ -35,11 +35,11 @@ Per eseguire questi hands-on-lab, è necessario:
    3. Dopo l'accettazione, questi contributi vengono estratti e uniti al repository [github oracle] (https://github.com/oracle/learning-library/tree/master/workshops/apex-en).
 ## Panoramica pratica
 
-** Documentazione **: [hol_overview_v1.0.2.md] (hol_overview_v1.0.2.md)
+**Documentazione**: [hol_overview_v1.0.2.md] (hol_overview_v1.0.2.md)
 
 ## Unità 1: Introduzione a Oracle Application Express
 
-** Documentazione **: [hol01_v1.0.2.md] (hol01_v1.0.2.md)
+**Documentazione**: [hol01_v1.0.2.md] (hol01_v1.0.2.md)
 
 ### Labs
 
@@ -49,7 +49,7 @@ Per eseguire questi hands-on-lab, è necessario:
 
 ## Unità 2: Utilizzo di SQL Workshop
 
-** Documentazione **: [hol01_v1.0.2.md] (hol01_v1.0.2.md)
+**Documentazione**: [hol01_v1.0.2.md] (hol01_v1.0.2.md)
 
 ### Labs
 
@@ -58,7 +58,7 @@ Per eseguire questi hands-on-lab, è necessario:
 
 ## Unità 3: Creazione di un'applicazione di database
 
-** Documentazione **: [hol03_v1.0.2.md] (hol03_v1.0.2.md)
+**Documentazione**: [hol03_v1.0.2.md] (hol03_v1.0.2.md)
 
 ### Labs
 
@@ -68,7 +68,7 @@ Per eseguire questi hands-on-lab, è necessario:
 
 ## Unità 4: gestione delle pagine in Page Designer
 
-** Documentazione **: [hol04_v1.0.2.md] (hol04_v1.0.2.md)
+**Documentazione**: [hol04_v1.0.2.md] (hol04_v1.0.2.md)
 
 ### Labs
 
@@ -78,7 +78,7 @@ Per eseguire questi hands-on-lab, è necessario:
 
 ## Unità 5: rapporti di sviluppo
 
-** Documentazione **: [hol05_v1.0.2.md] (hol05_v1.0.2.md)
+**Documentazione**: [hol05_v1.0.2.md] (hol05_v1.0.2.md)
 
 ### Labs
 
@@ -88,7 +88,7 @@ Per eseguire questi hands-on-lab, è necessario:
 
 ## Unità 6: Gestione e personalizzazione di report interattivi
 
-** Documentazione **: [hol06_v1.0.2.md] (hol06_v1.0.2.md)
+**Documentazione**: [hol06_v1.0.2.md] (hol06_v1.0.2.md)
 
 ### Labs
 
@@ -97,7 +97,7 @@ Per eseguire questi hands-on-lab, è necessario:
 
 ## Unità 7: Gestione e personalizzazione delle reti interattive
 
-** Documentazione **: [hol07_v1.0.2.md] (hol07_v1.0.2.md)
+**Documentazione**: [hol07_v1.0.2.md] (hol07_v1.0.2.md)
 
 ### Labs
 
@@ -110,7 +110,7 @@ Per eseguire questi hands-on-lab, è necessario:
 
 ## Unità 8: Creazione e utilizzo di moduli
 
-** Documentazione **: [hol08_v1.0.2.md] (hol08_v1.0.2.md)
+**Documentazione**: [hol08_v1.0.2.md] (hol08_v1.0.2.md)
 
 ### Labs
 
@@ -119,7 +119,7 @@ Per eseguire questi hands-on-lab, è necessario:
 
 ## Unità 9: creazione dei controlli della pagina dell'applicazione
 
-** Documentazione **: [hol09_v1.0.2.md] (hol09_v1.0.2.md)
+**Documentazione**: [hol09_v1.0.2.md] (hol09_v1.0.2.md)
 
 ### Labs
 
@@ -130,7 +130,7 @@ Per eseguire questi hands-on-lab, è necessario:
 
 ## Unità 10: aggiunta di calcoli, processi e convalide
 
-** Documentazione **: [hol10_v1.0.2.md] (hol10_v1.0.2.md)
+**Documentazione**: [hol10_v1.0.2.md] (hol10_v1.0.2.md)
 
 ### Labs
 
@@ -141,7 +141,7 @@ Per eseguire questi hands-on-lab, è necessario:
 
 ## Unità 11: implementazione della navigazione nella tua applicazione
 
-** Documentazione **: [hol11_v1.0.2.md] (hol11_v1.0.2.md)
+**Documentazione**: [hol11_v1.0.2.md] (hol11_v1.0.2.md)
 
 ### Labs
 
@@ -150,7 +150,7 @@ Per eseguire questi hands-on-lab, è necessario:
 
 ## Unità 12: utilizzo di temi e stili tematici
 
-** Documentazione **: [hol12_v1.0.2.md] (hol12_v1.0.2.md)
+**Documentazione**: [hol12_v1.0.2.md] (hol12_v1.0.2.md)
 
 ### Labs
 
@@ -160,7 +160,7 @@ Per eseguire questi hands-on-lab, è necessario:
 
 ## Unità 13: implementazione della sicurezza nella tua applicazione
 
-** Documentazione **: [hol13_v1.0.2.md] (hol13_v1.0.2.md)
+**Documentazione**: [hol13_v1.0.2.md] (hol13_v1.0.2.md)
 
 ### Labs
 
@@ -170,7 +170,7 @@ Per eseguire questi hands-on-lab, è necessario:
 
 ## Unità 14: aggiunta di pagine aggiuntive alla tua applicazione
 
-** Documentazione **: [hol14_v1.0.2.md] (hol14_v1.0.2.md)
+**Documentazione**: [hol14_v1.0.2.md] (hol14_v1.0.2.md)
 
 ### Labs
 
@@ -182,7 +182,7 @@ Per eseguire questi hands-on-lab, è necessario:
 
 ## Unità 15: Creazione e utilizzo di azioni e plug-in dinamici
 
-** Documentazione **: [hol15_v1.0.2.md] (hol15_v1.0.2.md)
+**Documentazione**: [hol15_v1.0.2.md] (hol15_v1.0.2.md)
 
 ### Labs
 
@@ -195,7 +195,7 @@ Per eseguire questi hands-on-lab, è necessario:
 
 ## Unità 16: Migrazione dello sviluppo di applicazioni tra ambienti
 
-** Documentazione **: [hol16_v1.0.2.md] (hol16_v1.0.2.md)
+**Documentazione**: [hol16_v1.0.2.md] (hol16_v1.0.2.md)
 
 ### Labs
 
