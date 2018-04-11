@@ -1,203 +1,203 @@
-# README First
-## Oracle Application Express: Developing Database Web Applications
-## Hands-On-Labs Guide
+# Leggimi prima
+## Oracle Application Express: Sviluppo di Applicazioni Web Database
+## Guida Hands-On-Labs
 
-This series of hands-on labs are part of the course material **Oracle Application Express: Developing Database Web Applications**. The labs are designed to teach you how to build applications using Oracle Application Express. The primary vehicle for teaching is a single use case which is expanded on with each lab.
+Questa serie di laboratori pratici fanno parte del materiale del corso ** Oracle Application Express: Sviluppo di Applicazioni Web Database **. I laboratori sono progettati per insegnarti come creare applicazioni utilizzando Oracle Application Express. Come modalità di insegnamento si tratterà un singolo caso che verrà sviluppato in ogni laboratorio.
 
-## Prerequisites
+## Prerequisiti
 
-The steps and screenshots in this hands-on-labs use Oracle Application Express 5.1.
+I passaggi e gli screenshot in questo laboratorio pratico utilizzano Oracle Application Express 5.1.
 
-To run these hands-on-labs, you need to:
+Per eseguire questi hands-on-lab, è necessario:
 
--   Obtain an Oracle Application Express Workspace and a Workspace Administrator /Developer user account. Select the most appropriate option from those listed below to obtain a Workspace:
+- Ottenere un'area di lavoro (Workspace) di Oracle Application Express e un account utente di Amministratore / Sviluppatore del Workspace. Seleziona l'opzione più appropriata tra quelle elencate qui sotto per ottenere uno spazio di lavoro:
 
-    -   [apex.oracle.com](http://apex.oracle.com/) - Request a workspace on Oracle's free 'development only' service for evaluating the technology.
+    - [apex.oracle.com] (http://apex.oracle.com/) - Richiedi uno spazio di lavoro sul servizio gratuito "solo sviluppo" di Oracle per valutare la tecnologia.
 
-    -   [Oracle Database Cloud Service](https://cloud.oracle.com/database) - Request service on the Oracle Database Cloud Service. Once provisioned you will be provided access to your cloud service which includes an Oracle Application Express Workspace.
+    - [Oracle Database Cloud Service] (https://cloud.oracle.com/database) - Servizio di richiesta sul servizio Oracle Database Cloud. Una volta eseguito il provisioning, verrà fornito l'accesso al servizio cloud che include un'area di lavoro Oracle Application Express.
 
-    -   [Oracle Database 11g Express Edition](http://www.oracle.com/technetwork/products/express-edition/overview/index.html) - Download Oracle XE and install on your laptop or desktop machine and then [download](http://www.oracle.com/technetwork/developer-tools/apex/downloads/index.html) and install the latest Oracle Application Express release.
+    - [Oracle Database 11g Express Edition] (http://www.oracle.com/technetwork/products/express-edition/overview/index.html) - Scarica Oracle XE e installa sul tuo computer portatile o desktop e poi [scarica] (http://www.oracle.com/technetwork/developer-tools/apex/downloads/index.html) e installa la versione più recente di Oracle Application Express.
 
-    -   [Oracle VM Virtual Box](http://www.oracle.com/technetwork/database/enterprise-edition/databaseappdev-vm-161299.html) - Download Oracle VM Virtual Box and then import the [Database Application Development Appliance](http://www.oracle.com/technetwork/database/enterprise-edition/databaseappdev-vm-161299.html) which includes Oracle Database 12c, Application Express and a number of labs pre-installed.
+    - [Oracle VM Virtual Box] (http://www.oracle.com/technetwork/database/enterprise-edition/databaseappdev-vm-161299.html) - Scarica Oracle VM Virtual Box e quindi importa [Appliance di sviluppo applicazioni database] (http://www.oracle.com/technetwork/database/enterprise-edition/databaseappdev-vm-161299.html) che include Oracle Database 12c, Application Express e un numero di laboratori preinstallati.
 
--   Download the lab source files from [GitHub Page](https://github.com/ckoratam/OracleAPEX-Curriculum). Alternatively, download the **apex-curriculum-3681867.zip** file from [https://apex.oracle.com/education](http://www.oracle.com/technetwork/developer-tools/apex/learnmore/apex-education-2517914.html) and then extract the **apex-curriculum-labs** folder into your working directory. The apex-curriculum-3681867.zip file also includes the apex-curriculum-ppts folder. This folder contains the slide decks for all of the lessons in this course material. Note that the slide decks for the lessons are not hosted on this GitHub page.
+- Scarica i file sorgente del laboratorio da [Pagina GitHub] (https://github.com/ckoratam/OracleAPEX-Curriculum). In alternativa, scarica il file ** apex-curriculum-3681867.zip ** da [https://apex.oracle.com/education](http://www.oracle.com/technetwork/developer-tools/apex/learnmore /apex-education-2517914.html) ed estrai la cartella ** apex-curriculum-labs ** nella tua directory di lavoro. Il file apex-curriculum-3681867.zip include anche la cartella apex-curriculum-ppts. Questa cartella contiene le slides di tutte le lezioni del corso. Le slides delle lezioni non sono ospitate su questa pagina GitHub.
 
-## IMPORTANT: 
-- The Lab documentation is **best viewed** by using the HOL's [GitHub Pages Website URL](https://oracle.github.io/learning-library/workshops/apex-en/). Once you are viewing the HOL's GitHub Pages website, you can see a list of Lab Guides at any time by clicking on the **Menu Icon**
+## IMPORTANTE:
+- La documentazione Lab è ** meglio visualizzata ** utilizzando l'URL [URL sito web GitHub Pages di HOL] (https://oracle.github.io/learning-library/workshops/apex-en/). Una volta che visualizzi il sito Web di GitHub Pages di HOL, puoi visualizzare un elenco di Guide di laboratorio in qualsiasi momento facendo clic sull'icona ** Menu **
 
-    ![](images/WorkshopMenu.png)
+    ! [] (immagini / WorkshopMenu.png)
 
-- To view the Lab Guide source, go to the [github oracle](https://github.com/oracle/learning-library/tree/master/workshops/apex-en) repository.
-- To log issues, go to the [github oracle](https://github.com/oracle/learning-library/tree/master/workshops/apex-en) repository and log an issue first.
-- Steps to contribute translated material:
-   1. Go to the [github oracle](https://github.com/oracle/learning-library/tree/master/workshops/apex-en) repository and log an issue first. See [Contributing guidelines](https://github.com/oracle/learning-library/blob/master/CONTRIBUTING.md). Alternatively, you can send an email to the mailing list:oracle-application-express_ww@oracle.com with the subject "Oracle APEX-GitHub Request".
-   2. You are then added as a contributor to this [GitHub](https://github.com/ckoratam/OracleAPEX) repository.
-   3. Upon acceptance, these contributions are pulled and merged with the [github oracle](https://github.com/oracle/learning-library/tree/master/workshops/apex-en) repository.
-## Hands-on Overview
+- Per visualizzare la fonte della Guida del laboratorio, accedere al repository [github oracle] (https://github.com/oracle/learning-library/tree/master/workshops/apex-en).
+- Per registrare i problemi, accedere al repository [github oracle] (https://github.com/oracle/learning-library/tree/master/workshops/apex-en) e registrare prima un problema.
+- Passi per contribuire con il materiale tradotto:
+   1. Vai al repository [github oracle] (https://github.com/oracle/learning-library/tree/master/workshops/apex-en) e registra prima un problema. Vedi [Linee guida di contribuzione] (https://github.com/oracle/learning-library/blob/master/CONTRIBUTING.md). In alternativa, è possibile inviare una e-mail alla mailing list: oracle-application-express_ww@oracle.com con oggetto "Oracle APEX-GitHub Request".
+   2. Successivamente, vieni aggiunto come contributore a questo repository [GitHub] (https://github.com/ckoratam/OracleAPEX).
+   3. Dopo l'accettazione, questi contributi vengono estratti e uniti al repository [github oracle] (https://github.com/oracle/learning-library/tree/master/workshops/apex-en).
+## Panoramica pratica
 
-**Documentation**: [hol_overview_v1.0.2.md](hol_overview_v1.0.2.md)
+** Documentazione **: [hol_overview_v1.0.2.md] (hol_overview_v1.0.2.md)
 
-## Unit 1: Getting Started with Oracle Application Express
+## Unità 1: Introduzione a Oracle Application Express
 
-**Documentation**: [hol01_v1.0.2.md](hol01_v1.0.2.md)
-
-### Labs
-
-- Log in to Oracle APEX environment
-- Navigating through the Major Components of Oracle APEX
-- Installing and Running a Packaged Application
-
-## Unit 2: Using SQL Workshop
-
-**Documentation**: [hol01_v1.0.2.md](hol01_v1.0.2.md)
+** Documentazione **: [hol01_v1.0.2.md] (hol01_v1.0.2.md)
 
 ### Labs
 
-- HOL 2-1: Loading the Tables and Data
-- HOL 2-2: Creating a Lookup Table
+- Accedi all'ambiente APEX Oracle
+- Navigazione attraverso i Componenti principali di Oracle APEX
+- Installazione ed esecuzione di un'applicazione pacchettizzata
 
-## Unit 3: Creating a Database Application
+## Unità 2: Utilizzo di SQL Workshop
 
-**Documentation**: [hol03_v1.0.2.md](hol03_v1.0.2.md)
-
-### Labs
-
-- HOL 3-1: Creating a Database Application from Scratch
-- HOL 3-2: Creating a Database Application from a Spreadsheet
-- HOL 3-3: Creating a Websheet Application
-
-## Unit 4: Managing Pages in Page Designer
-
-**Documentation**: [hol04_v1.0.2.md](hol04_v1.0.2.md)
+** Documentazione **: [hol01_v1.0.2.md] (hol01_v1.0.2.md)
 
 ### Labs
 
-- Creating a Dashboard
-- Reviewing Page Designer
-- Editing page components in Page Designer
+- HOL 2-1: caricamento di tabelle e dati
+- HOL 2-2: creazione di una tabella di ricerca
 
-## Unit 5:  Developing Reports
+## Unità 3: Creazione di un'applicazione di database
 
-**Documentation**: [hol05_v1.0.2.md](hol05_v1.0.2.md)
-
-### Labs
-
-- HOL 5-1: Creating a Classic Report
-- HOL 5-2: Creating an Interactive Report
-- HOL 5-3: Creating an Interactive Grid
-
-## Unit 6:  Managing and Customizing Interactive Reports
-
-**Documentation**: [hol06_v1.0.2.md](hol06_v1.0.2.md)
+** Documentazione **: [hol03_v1.0.2.md] (hol03_v1.0.2.md)
 
 ### Labs
 
-- HOL 6-1: Using an Interactive Report
-- HOL 6-2: Customizing an Interactive Report as a Developer
+- HOL 3-1: creazione di un'applicazione database da zero
+- HOL 3-2: creazione di un'applicazione di database da un foglio di calcolo
+- HOL 3-3: creazione di un'applicazione per un foglio Web
 
-## Unit 7:  Managing and Customizing Interactive Grids
+## Unità 4: gestione delle pagine in Page Designer
 
-**Documentation**: [hol07_v1.0.2.md](hol07_v1.0.2.md)
-
-### Labs
-
-- HOL 7-1: Customizing the Team Members Interactive Grid
-- HOL 7-2: Customizing the Projects Interactive Grid
-- HOL 7-3: Customizing the Milestones Interactive Grid
-- HOL 7-4: Customizing the Tasks Interactive Grid
-- HOL 7-5: Customizing an Interactive Grid as a Developer
-- HOL 7-6: Customizing an Interactive Grid as an End User
-
-## Unit 8:  Creating and Using Forms
-
-**Documentation**: [hol08_v1.0.2.md](hol08_v1.0.2.md)
+** Documentazione **: [hol04_v1.0.2.md] (hol04_v1.0.2.md)
 
 ### Labs
 
-- HOL 8-1: Updating the Form Pages in the Demo Projects Application
-- HOL 8-2: Creating a Form on a Table and Linking a Report
+- Creazione di un dashboard
+- Revisione di Page Designer
+- Modifica dei componenti della pagina in Page Designer
 
-## Unit 9:  Creating Application Page Controls
+## Unità 5: rapporti di sviluppo
 
-**Documentation**: [hol09_v1.0.2.md](hol09_v1.0.2.md)
-
-### Labs
-
-- HOL 9-1: Updating the Team Members Pages
-- HOL 9-2: Updating the Projects Pages
-- HOL 9-3: Updating the Milestones Pages
-- HOL 9-4: Updating the Tasks Pages
-
-## Unit 10:  Adding Computations, Processes, and Validations
-
-**Documentation**: [hol10_v1.0.2.md](hol10_v1.0.2.md)
+** Documentazione **: [hol05_v1.0.2.md] (hol05_v1.0.2.md)
 
 ### Labs
 
-- HOL 10-1: Implementing Validations on the Maintain Project Page
-- HOL 10-2: Creating and Using a Computation
-- HOL 10-3: Creating and Using a Process
-- HOL 10-4: Creating and Using Validations
+- HOL 5-1: creazione di un report classico
+- HOL 5-2: creazione di un report interattivo
+- HOL 5-3: creazione di una griglia interattiva
 
-## Unit 11:  Implementing Navigation in your Application
+## Unità 6: Gestione e personalizzazione di report interattivi
 
-**Documentation**: [hol11_v1.0.2.md](hol11_v1.0.2.md)
-
-### Labs
-
-- Updating the Breadcrumb Entries for the Team Members, Projects, Milestones, and Tasks pages
-- Updating the Navigation Menu Entries and Including Icons
-
-## Unit 12:  Using Themes and Theme Styles
-
-**Documentation**: [hol12_v1.0.2.md](hol12_v1.0.2.md)
+** Documentazione **: [hol06_v1.0.2.md] (hol06_v1.0.2.md)
 
 ### Labs
 
-- HOL 12-1: Updating the Navigation List
-- HOL 12-2: Updating the Team Members Pages
-- HOL 12-3: Creating and Using Theme Styles
+- HOL 6-1: utilizzo di un report interattivo
+- HOL 6-2: Personalizzazione di un report interattivo come sviluppatore
 
-## Unit 13:  Implementing Security in your Application 
+## Unità 7: Gestione e personalizzazione delle reti interattive
 
-**Documentation**: [hol13_v1.0.2.md](hol13_v1.0.2.md)
-
-### Labs
-
-- HOL 13-1: Creating and Using an Authorization Scheme
-- HOL 13-2: Creating and Using an Authentication Scheme
-- HOL 13-3: Controlling User Access by Using the Access Control Administration
-
-## Unit 14:  Adding Additional Pages to your Application 
-
-**Documentation**: [hol14_v1.0.2.md](hol14_v1.0.2.md)
+** Documentazione **: [hol07_v1.0.2.md] (hol07_v1.0.2.md)
 
 ### Labs
 
-- HOL 14-1: Creating and Customizing a Calendar
-- HOL 14-2: Adding the Project Tasks Chart
-- HOL 14-3: Adding the Project Milestones Chart
-- HOL 14-4: Adding the Project Leads Chart
-- HOL 14-5: Adding the Project Tree
+- HOL 7-1: Personalizzazione della griglia interattiva per i membri del team
+- HOL 7-2: Personalizzazione della griglia interattiva di progetto
+- HOL 7-3: Personalizzazione della griglia interattiva Milestones
+- HOL 7-4: personalizzazione della griglia interattiva di Google Task
+- HOL 7-5: Personalizzazione di una griglia interattiva come sviluppatore
+- HOL 7-6: Personalizzazione di una griglia interattiva come utente finale
 
-## Unit 15:  Creating and Using Dynamic Actions and Plug-ins
+## Unità 8: Creazione e utilizzo di moduli
 
-**Documentation**: [hol15_v1.0.2.md](hol15_v1.0.2.md)
-
-### Labs
-
-- HOL 15-1: Creating and Using a Dynamic Action on the Maintain Project Page
-- HOL 15-2: Creating and Using a Dynamic Action on the Maintain Task Page
-- HOL 15-3: Creating and Using Dynamic Actions on the Project Tree Page
-- HOL 15-4: Creating and Using a Plug-in
-- HOL 15-5: Updating the Home Page
-
-
-## Unit 16:  Migrating Application Development Between Environments
-
-**Documentation**: [hol16_v1.0.2.md](hol16_v1.0.2.md)
+** Documentazione **: [hol08_v1.0.2.md] (hol08_v1.0.2.md)
 
 ### Labs
 
-- HOL 16-1: Importing an Application
-- HOL 16-2: Migrating your Application Development Between Environments
+- HOL 8-1: Aggiornamento delle pagine del modulo nell'applicazione Progetti demo
+- HOL 8-2: creazione di un modulo su una tabella e collegamento di un report
+
+## Unità 9: creazione dei controlli della pagina dell'applicazione
+
+** Documentazione **: [hol09_v1.0.2.md] (hol09_v1.0.2.md)
+
+### Labs
+
+- HOL 9-1: Aggiornamento delle pagine dei membri del team
+- HOL 9-2: Aggiornamento delle pagine dei progetti
+- HOL 9-3: Aggiornamento delle pagine Milestones
+- HOL 9-4: aggiornamento delle pagine di attività
+
+## Unità 10: aggiunta di calcoli, processi e convalide
+
+** Documentazione **: [hol10_v1.0.2.md] (hol10_v1.0.2.md)
+
+### Labs
+
+- HOL 10-1: Implementazione delle convalide nella pagina di gestione del progetto
+- HOL 10-2: Creazione e utilizzo di un calcolo
+- HOL 10-3: Creazione e utilizzo di un processo
+- HOL 10-4: creazione e utilizzo di convalide
+
+## Unità 11: implementazione della navigazione nella tua applicazione
+
+** Documentazione **: [hol11_v1.0.2.md] (hol11_v1.0.2.md)
+
+### Labs
+
+- Aggiornamento delle voci breadcrumb per le pagine Membri del team, Progetti, Milestones e Attività
+- Aggiornamento delle voci del menu di navigazione e delle icone incluse
+
+## Unità 12: utilizzo di temi e stili tematici
+
+** Documentazione **: [hol12_v1.0.2.md] (hol12_v1.0.2.md)
+
+### Labs
+
+- HOL 12-1: Aggiornamento della lista di navigazione
+- HOL 12-2: Aggiornamento delle pagine dei membri del team
+- HOL 12-3: Creazione e utilizzo degli stili dei temi
+
+## Unità 13: implementazione della sicurezza nella tua applicazione
+
+** Documentazione **: [hol13_v1.0.2.md] (hol13_v1.0.2.md)
+
+### Labs
+
+- HOL 13-1: Creazione e utilizzo di uno schema di autorizzazione
+- HOL 13-2: Creazione e utilizzo di uno schema di autenticazione
+- HOL 13-3: controllo dell'accesso utente tramite l'amministrazione di controllo degli accessi
+
+## Unità 14: aggiunta di pagine aggiuntive alla tua applicazione
+
+** Documentazione **: [hol14_v1.0.2.md] (hol14_v1.0.2.md)
+
+### Labs
+
+- HOL 14-1: Creazione e personalizzazione di un calendario
+- HOL 14-2: aggiunta del grafico delle attività del progetto
+- HOL 14-3: aggiunta della tabella Milestones del progetto
+- HOL 14-4: aggiunta della tabella dei lead di progetto
+- HOL 14-5: aggiunta dell'albero del progetto
+
+## Unità 15: Creazione e utilizzo di azioni e plug-in dinamici
+
+** Documentazione **: [hol15_v1.0.2.md] (hol15_v1.0.2.md)
+
+### Labs
+
+- HOL 15-1: Creazione e utilizzo di un'azione dinamica nella pagina di gestione del progetto
+- HOL 15-2: Creazione e utilizzo di un'azione dinamica nella pagina di attività di manutenzione
+- HOL 15-3: Creazione e utilizzo di azioni dinamiche nella pagina Struttura del progetto
+- HOL 15-4: creazione e utilizzo di un plug-in
+- HOL 15-5: Aggiornamento della pagina iniziale
+
+
+## Unità 16: Migrazione dello sviluppo di applicazioni tra ambienti
+
+** Documentazione **: [hol16_v1.0.2.md] (hol16_v1.0.2.md)
+
+### Labs
+
+- HOL 16-1: Importazione di un'applicazione
+- HOL 16-2: Migrazione dello sviluppo dell'applicazione tra ambienti
