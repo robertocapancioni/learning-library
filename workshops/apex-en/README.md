@@ -2,7 +2,7 @@
 ## Oracle Application Express: Sviluppo di Applicazioni Web Database
 ## Guida Hands-On-Labs
 
-Questa serie di laboratori pratici fanno parte del materiale del corso**Oracle Application Express: Sviluppo di Applicazioni Web Database**. I laboratori sono progettati per insegnarti come creare applicazioni utilizzando Oracle Application Express. Come modalità di insegnamento si tratterà un singolo caso che verrà sviluppato in ogni laboratorio.
+Questa serie di laboratori pratici fanno parte del materiale del corso **Oracle Application Express: Sviluppo di Applicazioni Web Database**. I laboratori sono progettati per insegnarti come creare applicazioni utilizzando Oracle Application Express. Come modalità di insegnamento si tratterà un singolo caso che verrà sviluppato in ogni laboratorio.
 
 ## Prerequisiti
 
@@ -20,7 +20,7 @@ Per eseguire questi hands-on-lab, è necessario:
 
     - [Oracle VM Virtual Box] (http://www.oracle.com/technetwork/database/enterprise-edition/databaseappdev-vm-161299.html) - Scarica Oracle VM Virtual Box e quindi importa [Appliance di sviluppo applicazioni database] (http://www.oracle.com/technetwork/database/enterprise-edition/databaseappdev-vm-161299.html) che include Oracle Database 12c, Application Express e un numero di laboratori preinstallati.
 
-- Scarica i file sorgente del laboratorio da [Pagina GitHub] (https://github.com/ckoratam/OracleAPEX-Curriculum). In alternativa, scarica il file**apex-curriculum-3681867.zip**da [https://apex.oracle.com/education](http://www.oracle.com/technetwork/developer-tools/apex/learnmore /apex-education-2517914.html) ed estrai la cartella**apex-curriculum-labs**nella tua directory di lavoro. Il file apex-curriculum-3681867.zip include anche la cartella apex-curriculum-ppts. Questa cartella contiene le slides di tutte le lezioni del corso. Le slides delle lezioni non sono ospitate su questa pagina GitHub.
+- Scarica i file sorgente del laboratorio da [Pagina GitHub] (https://github.com/ckoratam/OracleAPEX-Curriculum). In alternativa, scarica il file **apex-curriculum-3681867.zip** da [https://apex.oracle.com/education](http://www.oracle.com/technetwork/developer-tools/apex/learnmore /apex-education-2517914.html) ed estrai la cartella**apex-curriculum-labs**nella tua directory di lavoro. Il file apex-curriculum-3681867.zip include anche la cartella apex-curriculum-ppts. Questa cartella contiene le slides di tutte le lezioni del corso. Le slides delle lezioni non sono ospitate su questa pagina GitHub.
 
 ## IMPORTANTE:
 - La documentazione Lab è **meglio visualizzata** utilizzando l'URL [URL sito web GitHub Pages di HOL] (https://oracle.github.io/learning-library/workshops/apex-en/). Una volta che visualizzi il sito Web di GitHub Pages di HOL, puoi visualizzare un elenco di Guide di laboratorio in qualsiasi momento facendo clic sull'icona **Menu**
